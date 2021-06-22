@@ -1,42 +1,50 @@
-    1 "Табы и пробелы
-    2 set expandtab
-    3 set smarttab
-    4 set tabstop=4
-    5 set softtabstop=4
-    6 set shiftwidth=4
-    7 "Нумерация строк и отступ
-    8 set number
-    9 set foldcolumn=2
-   10 "Цветовая схема
-   11 colorscheme dark
-   12 syntax on
-   13 "Без звука
-   14 set noerrorbells
-   15 set novisualbell
-   16 "Мышь
-   17 set mouse=a
-   18 "Привязки
-   19 let mapleader = ","
-   20 nmap <leader>w :w!<CR>
-   21 map <space> /
-   22 map <C-space> ?
-   23 map <C-j> <C-W>j
-   24 map <C-k> <C-W>k
-   25 map <C-h> <C-W>h
-   26 map <C-l> <C-W>l
-   27 map <leader>ss :setlocal spell!<CR>
-   28 inoremap <C-v> <ESC>"+pa
-   29 vnoremap <C-c> "+y
-   30 vnoremap <C-d> "+d
-   31 "Поиск
-   32 set ignorecase
-   33 set smartcase 
-   34 set hlsearch
-   35 set incsearch
-   36 "Выход с sudo 
-   37 command! W execute 'w !sudo tee % > /dev/null' <bar> edit! 
-   38 "Кодировка
-   39 set encoding=utf8 
-   40 "Тип переноса
-   41 set ffs=unix,dos,mac                                                                                                                                            
+"Табы и пробелы
+set expandtab
+set smarttab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
+"Нумерация строк и отступ
+set number
+set foldcolumn=2
+
+"Цветовая схема
+colorscheme dark
+syntax on
+
+"Без звука
+set noerrorbells
+set novisualbell
+
+"Мышь
+set mouse=a
+
+"Привязки
+let mapleader = ","
+nmap <leader>w :w!<CR>
+map <space> /
+map <C-space> ?
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+map <leader>ss :setlocal spell!<CR>
+inoremap <C-v> <ESC>"+pa
+vnoremap <C-c> "+y
+vnoremap <C-d> "+d
+
+"Поиск
+set ignorecase
+set smartcase 
+set hlsearch
+set incsearch
+
+"Выход с sudo 
+command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
+ 
+"Кодировка
+set encoding=utf8
+ 
+"Тип переноса
+set ffs=unix,dos,mac                                                                                                                                            
