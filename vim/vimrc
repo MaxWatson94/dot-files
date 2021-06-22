@@ -1,50 +1,4 @@
-Last login: Tue Jun 22 15:02:40 on ttys000
-emlids-MBP-2:~ maxim.matin$ vim .vimrc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-emlids-MBP-2:~ maxim.matin$ vim .vimrc
-Error detected while processing /Users/maxim.matin/.vimrc:
-line   11:
-E185: Cannot find color scheme 'dark'
-Press ENTER or type command to continue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    1 Табы и пробелы
+    1 "Табы и пробелы
     2 set expandtab
     3 set smarttab
     4 set tabstop=4
@@ -84,9 +38,5 @@ Press ENTER or type command to continue
    38 "Кодировка
    39 set encoding=utf8 
    40 "Тип переноса
-   41 set ffs=unix,dos,mac 
-  ~                                                                                                                                                  
-  ~                                                                                                                                                  
-  ~                                                                                                                                                  
-  ~                                                                                                                                                  
+   41 set ffs=unix,dos,mac                                                                                                                                            
 
