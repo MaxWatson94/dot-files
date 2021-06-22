@@ -1,3 +1,5 @@
 [user]
 	name = Max Matin
 	email = maxim.matin@emlid.com
+[color]
+	ui = auto
