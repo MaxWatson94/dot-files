@@ -1,17 +1,12 @@
-- defaults:
-    link:
-      relink: true
-
 - clean: ['~']
 
 - link:
+    ~/.dotfiles: ''
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
     ~/.git: git/
 
-- create:
-    - ~/downloads
-    - ~/.vim/undo-history
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - vim +PluginInstall +qall
