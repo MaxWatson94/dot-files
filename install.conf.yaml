@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.git: git/
     ~/.vim: vim/
+    ~/.VScode: vscode/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
