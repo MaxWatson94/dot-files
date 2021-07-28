@@ -3,3 +3,6 @@
 	email = maxim.matin@emlid.com
 [color]
 	ui = auto
+
+[alias]
+    log = log --pretty=online
