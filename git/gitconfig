@@ -5,4 +5,5 @@
 	ui = auto
 
 [alias]
-    log = log --pretty=online
+    lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    st = status -sb
